@@ -3,7 +3,7 @@
 :root {
   /* colors */
 
-/* Creamy White (#FDFDFB)
+  /* Creamy White (#FDFDFB)
 Milk White (#FFF9E6)
 Uranian Blue (#B3E5FC)
 Butter Yellow (#FFF4B1) */
@@ -206,6 +206,24 @@ button.normal {
 
 .logo {
   width: 50px;
+}
+
+.dropdown a {
+  display: block;
+  color: var(--black);
+  padding: 10px 15px;
+}
+
+.dropdown .list {
+  display: none;
+  position: absolute;
+  background: var(--uranian-blue);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  min-width: 110px;
+}
+
+.dropdown:hover .list {
+  display: block;
 }
 
 #hero {
@@ -516,7 +534,7 @@ button.normal {
 #sm-banner .banner-box:hover button {
   background: var(--butter-yellow);
   border: 1px solid var(--butter-yellow);
-  color: var(--black)
+  color: var(--black);
 }
 
 #banner3 {
@@ -964,6 +982,14 @@ footer .copyright {
     display: none;
   }
 
+  /* .dropdown .list {
+    display: block;
+  } */
+
+  /* .dropdown:hover .list {
+    display: block;
+  } */
+
   .section-p1 {
     padding: 40px 40px;
   }
@@ -1182,3 +1208,257 @@ footer .copyright {
     padding: 20px;
   }
 }
+
+/* Team members */
+/* Deepti */
+
+.dropdown_div {
+  background-color: var(--uranian-blue);
+  height: 500px;
+  width: 245px;
+  border-radius: 20px;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #e4d8b3;
+}
+
+/* .dropdownitem{
+    font-size: 20px;
+     text-decoration: none;
+     color: black;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
+
+ul {
+  list-style-type: none;
+}
+
+.pro {
+  height: 42px;
+  width: 220px;
+  border-bottom: 1px solid #692a1d;
+  margin: 10px;
+
+  /* background-color: #e4d5a757; */
+  text-align: center;
+}
+
+.pro:hover {
+  cursor: pointer;
+  background-color: var(--butter-yellow);
+}
+
+.milksec1 {
+  /* background-color: var(--milky-white); */
+  height: 1600px;
+  width: 550px;
+  margin-top: 80px;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.milksections {
+  display: flex;
+  gap: 4.5em;
+  /* background: var(--milky-white); */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+.item {
+  background-color: #fffbff;
+  height: 500px;
+  width: 500px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: 3px solid #692a1d;
+}
+
+.freemembership {
+  height: 300px;
+  background-color: var(--milky-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot2 {
+  height: 200px;
+
+  display: flex;
+  justify-content: space-evenly;
+  border-top: black;
+  background-color: #fffbff;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.part1 {
+  height: 150px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.part2 {
+  height: 150px;
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.part3 {
+  height: 150px;
+  width: 70px;
+
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.FOOT1 {
+  height: 200px;
+
+  display: flex;
+  gap: 5.5em;
+  background-color: #fffbff;
+  font-size: larger;
+  border-top: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.deliveryarea {
+  background-color: #fffbff;
+  height: 150px;
+  width: 200px;
+  margin-top: 30px;
+  font-size: small;
+  font-style: normal;
+  text-align: center;
+}
+
+/* milkpac */
+
+.proimg {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.proprice {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5em;
+  border-radius: 20px;
+  border-top: 1px solid #692a1d;
+  border-bottom: 1px solid #692a1d;
+  height: 110px;
+  width: 470px;
+}
+.onlinebuy {
+  font-style: italic;
+  color: rgb(66, 63, 63);
+  font-size: larger;
+}
+
+/* .proimg2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.proprice2{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+} */
+
+#item1 {
+  text-decoration: none;
+  color: black;
+}
+
+#item2 {
+  text-decoration: none;
+  color: black;
+}
+#item3 {
+  text-decoration: none;
+  color: black;
+}
+#item4 {
+  text-decoration: none;
+  color: black;
+}
+#item5 {
+  text-decoration: none;
+  color: black;
+}
+#item6 {
+  text-decoration: none;
+  color: black;
+}
+
+.item:hover {
+  cursor: pointer;
+  border-color: blue;
+}
+
+/* Shakshit */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .contactinfo {
+  display: flex;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+  flex-direction: column;
+  max-width: 400px;
+  justify-content: flex-start;
+}
+
+.container .address {
+  margin-right: 50px;
+}
+
+.submit {
+  background-color: black;
+  color: #f2f2f2;
+  width: 100px;
+}
+
+.address,
+.inputbox {
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+

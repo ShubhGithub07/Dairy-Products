@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Dairy Product</title>
+    <link rel="stylesheet" href="../login.css">
+
+    <!-- some link predefined for better performance -->
+    <!-- Preconnecting to Google's fonts API to speed up the retrieval of font resources. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+    <!-- Speeds up the loading of font files. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- This link element is used to include Google Fonts in the webpage. -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Allows the use of a wide variety of icons on the webpage. -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- This link element specifies the favicon for the webpage. The favicon is the small icon displayed
+        in the browser tab.-->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    
+    <!-- navbar code-->
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logoe" alt="Logo" /></a>
+        <!-- <div>
+          <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="../Pages/about.html">About</a></li>
+            <li><a href="../Pages/products.html">Products</a></li>
+            <li><a href="../Pages/contact.html">Contact</a></li>
+            <li id="lg-bag">
+              <a href="../Pages/cart.html"><i class="fal fa-shopping-cart"></i></a>
+            </li>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+          </ul>
+        </div>
+        <div class="mobile">
+          <a href="../Pages/cart.html"><i class="fal fa-shopping-cart"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
+        </div> -->
+      </section>
+      <!-- navbar code ends here -->
+
+      <!-- login code -->
+       <h2>Login With Us !!</h2>
+
+       <!-- login box code -->
+    <div class="container">
+      <div class="box">
+          
+        <form action="" method="get">
+            <div>
+              <label for="email">Email Address : </label>
+              <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+
+          <div class="div3">
+            <input type="checkbox" id="rememberMe">
+            <label for="rememberMe">Remember Me</label>
+  
+            <div id="message"></div>
+            <a href="#" class="fgt" style="color: #007bff;" onclick="forgotPassword()"> Forgot Password ?</a>
+          </div>
+
+          <input type="submit" value="Login" onclick="window.location.href ='cart.html';"></input>
+
+        </form>
+      </div>
+
+          <p class="para-1">
+            Not yet a Member ??<a href="Signup.html" style="color: #007bff;"> SIGN UP</a>
+        </p>
+
+    </div>
+        <!-- login box code ends here -->
+       <!-- login code ends here -->
+
+
+      <!-- footer code-->
+       
+      <!-- footer code ends here -->
+
+      <!-- js code -->
+      <script src="/login.js"></script>
+
+      <!-- Use this to add Ionicons (a set of high-quality icons) to your website, leveraging modern JavaScript module features. -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+      <!-- Includes the Ionicons library, but this version is intended for older browsers that do not support JavaScript modules. The nomodule attribute ensures this script is only loaded by browsers that do not support modules. -->
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- js code ends here -->
+
+</body>
+</html>

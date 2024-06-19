@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../signup.css">
+
+    <!-- some link predefined for better performance -->
+    <!-- Preconnecting to Google's fonts API to speed up the retrieval of font resources. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+    <!-- Speeds up the loading of font files. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- This link element is used to include Google Fonts in the webpage. -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Allows the use of a wide variety of icons on the webpage. -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- This link element specifies the favicon for the webpage. The favicon is the small icon displayed
+        in the browser tab.-->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon" />
+
+</head>
+<body>
+
+     <!-- navbar code-->
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logoe" alt="Logo" /></a>
+      <!-- <div>
+        <ul id="navbar">
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="../Pages/about.html">About</a></li>
+          <li><a href="../Pages/products.html">Products</a></li>
+          <li><a href="../Pages/contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="../Pages/cart.html"><i class="fal fa-shopping-cart"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="../Pages/cart.html"><i class="fal fa-shopping-cart"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div> -->
+    </section>
+    <!-- navbar code ends here -->
+
+    <!-- Signup box code  -->
+
+  <div class="container">
+        
+      <form action="#" method="get">
+          <div>
+            <h1>CREATE AN ACCOUNT !! </h1>
+            <h2>It's free and only takes a minute</h2>
+          </div>
+
+          <div class="form-group">
+            <label for="username">Username :</label><br>
+            <input type="text" id="username" required>
+          </div>
+ 
+          <div class="form-group">
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password:</label> <br>
+            <input type="password" id="password" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone:</label> <br>
+            <input type="tel" id="phone" required maxlength="10">
+          </div>
+
+          <div>
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the terms and conditions</label>
+          </div>
+
+          <input type="submit" value="Sign Up" onclick="checkCredentials()">
+      </form>
+
+      <p class="para-2"> Already a user? 
+        <a href="login.html">Login here</a>
+      </p>
+</div>
+
+        
+     <!-- signup box code ends  -->
+
+      <!-- footer code-->
+      
+      <!-- footer code ends here -->
+
+      <!-- js code -->
+      <script src="/signup.js"></script>
+
+      <!-- Use this to add Ionicons (a set of high-quality icons) to your website, leveraging modern JavaScript module features. -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+      <!-- Includes the Ionicons library, but this version is intended for older browsers that do not support JavaScript modules. The nomodule attribute ensures this script is only loaded by browsers that do not support modules. -->
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- js code ends here -->
+
+    
+</body>
+</html>

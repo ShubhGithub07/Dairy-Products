@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dairy Products</title>
+
+    <link rel="stylesheet" href="../style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logoe" alt="Logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="../Pages/index.html">Home</a></li>
+          <li><a href="../Pages/about.html">About</a></li>
+          <li>
+            <div class="dropdown">
+              <a href="#">Products</a>
+              <div class="list">
+                <a href="../Pages/milk.html">Milk</a>
+                <a href="#">Ghee</a>
+                <a href="#">Curd</a>
+                <a href="#">Butter</a>
+              </div>
+            </div>
+          </li>
+          <li><a class="active" href="../Pages/contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="../Pages/cart.html"
+              ><i class="fal fa-shopping-cart"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="../Pages/cart.html"><i class="fal fa-shopping-cart"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="contactinfo">
+        <div class="box">
+          <div class="icon"></div>
+          <div class="text">
+            <p>LETS GET</p>
+            <p>
+              Contact Us And Dairy Products List We are Available between
+              10AM-6PM, Feel free to contact
+            </p>
+            <br />
+            <p>
+              For Overseas Enquiry <br />
+              Toll Free No : 1800 120 4777 <br />
+              E-mail id : info@doodhbhiaurshudhbhi.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="address">
+        <div class="content">
+          <h2>Contact Us</h2>
+          <p>We'd Love to Hear From You, Get In Touch With Us</p>
+        </div>
+        <form class="inputbox" action="#" method="post">
+          <div class="form-group">
+            <label for="full-name">Full Name:</label><br />
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone number:</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Your Phone Number"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label><br />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+
+          <button class="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logoe.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong>Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Minus dolorem totam recusandae corrupti
+        </p>
+        <p><strong>Phone:</strong> 9786545673/9674523134</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">Veiw Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Store</p>
+        <div class="row">
+          <img src="img/pay/.jpg" alt="" />
+          <img src="img/pay/.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy 2024,pvt ltd</p>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
