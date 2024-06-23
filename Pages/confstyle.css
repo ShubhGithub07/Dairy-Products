@@ -1,0 +1,92 @@
+body {
+    background-color: #e4f6ff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .checkoutNavbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+  }
+  
+  .checkoutNavbar b {
+    font-weight: bold;
+  }
+  
+  .checkoutContent {
+    background-color: white;
+    border-radius: 25px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 16px 32px rgba(7, 26, 29, 0.1);
+    max-width: 1200px; /* Adjust max-width as per your design */
+    width: 90%;
+  }
+  
+  .checkoutContent h1, .checkoutContent h3 {
+    text-align: center;
+  }
+  
+  .checkoutContent p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+  
+  .orderNumber {
+    background-color: #f7f6f0;
+    margin-top: 10px;
+    height: 30px;
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+  
+  .orderNumber span {
+    font-weight: 100;
+  }
+  
+  .orderDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .orderDetails > div {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 16px 32px rgba(7, 26, 29, 0.1);
+  }
+  
+  .orderDetails h5 {
+    margin-bottom: 10px;
+  }
+  
+  .continueShopping {
+    display: block;
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .orderDetails > div {
+      width: 100%;
+    }
+  }
