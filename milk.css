@@ -227,7 +227,7 @@ button.normal {
 }
 
 #hero {
-  background-image: url("img/hero.avif");
+  background-image: url("img/hero4.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -245,14 +245,13 @@ button.normal {
 }
 
 #hero h1 {
-  color: var(--butter-yellow);
-  font-size: 40px;
+  color: #088178;
 }
 
 #hero button {
   background-image: url("img/button.png");
   background-color: transparent;
-  color: var(--butter-yellow);
+  color: #088178;
   border: 0;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
@@ -260,10 +259,6 @@ button.normal {
   font-weight: 700;
   font-size: 15px;
 }
-
-/* #hero button:hover {
-  color: var(--butter-yellow)
-} */
 
 #feature {
   display: flex;
@@ -351,9 +346,7 @@ button.normal {
 }
 
 .property-card .card-banner img {
-  padding-left: 100px;
-  height: 100%;
-  width: 500px;
+  height: 70%;
   object-fit: cover;
   transition: 0.5s ease;
 }
@@ -414,7 +407,6 @@ button.normal {
 
 #product1 .pro img {
   width: 100%;
-  height: 190px;
   border-radius: 20px;
 }
 
@@ -505,7 +497,7 @@ button.normal {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("/img/categories.png");
+  background-image: url("img/banner/b2.jpg");
   min-width: 630px;
   height: 50vh;
   background-size: cover;
@@ -516,7 +508,7 @@ button.normal {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url("/img//milk-products.jpg");
+  background-image: url("img/banner/b2.jpg");
   background-color: #bcd569;
 }
 
@@ -557,7 +549,7 @@ button.normal {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("/img/milk.png");
+  background-image: url("img/banner/b2.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -568,12 +560,12 @@ button.normal {
 }
 
 #banner3 .banner-box2 {
-  background-image: url("img/cream.jpeg");
+  background-image: url("img/banner/b2.jpg");
   background-color: #d091e4;
 }
 
 #banner3 .banner-box3 {
-  background-image: url("img/cheese2.png");
+  background-image: url("img/banner/b2.jpg");
   background-color: #8ab1d4;
 }
 
@@ -769,10 +761,12 @@ footer .copyright {
   text-align: center;
   flex-direction: column;
   padding: 14px;
-  background-image: url("img/milk_bg3.avif");
 }
 
 /* About-Us page */
+#page-header .about-header {
+  background-image: url();
+}
 
 #about-head {
   display: flex;
@@ -1362,3 +1356,222 @@ footer .copyright {
     padding: 20px;
   }
 }
+
+
+/* Team members */
+/* Deepti */
+
+.dropdown_div {
+    background-color: var(--uranian-blue);
+    height: 500px;
+    width: 245px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e4d8b3;
+  }
+  
+  /* .dropdownitem{
+      font-size: 20px;
+       text-decoration: none;
+       color: black;
+      font-style: italic;
+      display: flex;
+      flex-wrap: wrap;
+      
+  } */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .pro {
+    height: 42px;
+    width: 220px;
+    border-bottom: 1px solid #692a1d;
+    margin: 10px;
+  
+    /* background-color: #e4d5a757; */
+    text-align: center;
+  }
+  
+  .pro:hover {
+    cursor: pointer;
+    background-color: var(--butter-yellow);
+  }
+  
+  .milksec1 {
+    /* background-color: var(--milky-white); */
+    height: 1600px;
+    width: 550px;
+    margin-top: 80px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .milksections {
+    display: flex;
+    gap: 4.5em;
+    /* background: var(--milky-white); */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+  .item {
+    background-color: #fffbff;
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 3px solid #692a1d;
+  }
+  
+  .freemembership {
+    height: 300px;
+    background-color: var(--milky-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .foot2 {
+    height: 200px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    border-top: black;
+    background-color: #fffbff;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .part1 {
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 30px;
+  }
+  
+  .part2 {
+    height: 150px;
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 30px;
+  }
+  
+  .part3 {
+    height: 150px;
+    width: 70px;
+  
+    margin: 20px;
+    margin-left: 30px;
+  }
+  
+  .FOOT1 {
+    height: 200px;
+  
+    display: flex;
+    gap: 5.5em;
+    background-color: #fffbff;
+    font-size: larger;
+    border-top: black;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .deliveryarea {
+    background-color: #fffbff;
+    height: 150px;
+    width: 200px;
+    margin-top: 30px;
+    font-size: small;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  /* milkpac */
+  
+  .proimg {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 20px;
+  }
+  
+  .proprice {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5em;
+    border-radius: 20px;
+    border-top: 1px solid #692a1d;
+    border-bottom: 1px solid #692a1d;
+    height: 110px;
+    width: 470px;
+  }
+  .onlinebuy {
+    font-style: italic;
+    color: rgb(66, 63, 63);
+    font-size: larger;
+  }
+  
+  /* .proimg2{
+      height: 200px;
+      width: 200px;
+      margin: 10px;
+      margin-top: 20px;
+  }
+  
+  .proprice2{
+      height: 200px;
+      width: 200px;
+      margin-top: 20px;
+  } */
+  
+  #item1 {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #item2 {
+    text-decoration: none;
+    color: black;
+  }
+  #item3 {
+    text-decoration: none;
+    color: black;
+  }
+  #item4 {
+    text-decoration: none;
+    color: black;
+  }
+  #item5 {
+    text-decoration: none;
+    color: black;
+  }
+  #item6 {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .item:hover {
+    cursor: pointer;
+    border-color: var(--butter-yellow);
+  }
