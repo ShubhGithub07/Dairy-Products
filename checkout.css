@@ -204,6 +204,10 @@ select:disabled {
   width: 20px;
 }
 
+#header .logo {
+  width: 150px;
+}
+
 .unavailable input {
   cursor: not-allowed;
   pointer-events: none;

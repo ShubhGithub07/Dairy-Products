@@ -178,10 +178,15 @@ button.normal {
   cursor: pointer;
 }
 
+#header .logo {
+  width: 150px;
+}
+
 #navbar li a:hover,
 #navbar li a.active {
   color: var(--butter-yellow);
   cursor: pointer;
+  /* border: 1px solid var(--black); */
 }
 
 #navbar li a.active::after,
@@ -224,6 +229,14 @@ button.normal {
 
 .dropdown:hover .list {
   display: block;
+}
+
+#navbar button {
+  color: var(--black);
+}
+
+#navbar button:hover {
+  background: var(--butter-yellow);
 }
 
 #hero {

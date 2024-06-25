@@ -1357,6 +1357,10 @@ footer .copyright {
   }
 }
 
+#header .logo {
+  width: 150px;
+}
+
 
 /* Team members */
 /* Deepti */

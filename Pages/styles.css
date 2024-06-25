@@ -325,6 +325,10 @@ form .form-group {
   padding: 10px 0;
 }
 
+#header .logo {
+  width: 150px;
+}
+
 @media (min-width: 1250px) {
   .container {
     justify-content: space-between;
